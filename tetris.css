@@ -1,0 +1,20 @@
+:root{
+    --canvasWidth: 1280px;
+    --canvasHeight: 720px;
+}
+
+
+.canvasHolder{
+    width: var(--canvasWidth);
+    height: var(--canvasHeight);
+}
+
+.canvasForeground {
+    border: black 1px solid;
+    position: absolute; 
+    z-index: 1;
+}
+
+.canvasBackground{
+    z-index: 0;
+}
