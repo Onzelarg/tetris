@@ -52,11 +52,6 @@ class grid{
             for (let j = 0; j < width; j++) {
                 this.cells[currentRow+j].color=this.cells[previousRow+j].color;
                 this.cells[currentRow+j].blank=this.cells[previousRow+j].blank;
-                // if(i==row) this.cells[currentRow+j].blank=true;
-                // if(!this.cells[previousRow+j].blank){
-                //     this.cells[currentRow+j].color=this.cells[previousRow+j].color;
-                //     this.cells[currentRow+j].blank=false;
-                // }
             }
             
         }
